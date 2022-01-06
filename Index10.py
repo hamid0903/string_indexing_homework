@@ -6,4 +6,11 @@ def main(s):
     Returns:
         int: answer
     """
-    return
+    m1=int(s[-1])
+    m2=int(s[-2])
+    m3=int(s[-3])
+    m4=int(s[-4])
+    m5=int(s[-5])
+    m=m1+m2+m3+m4+m5
+    return m
+print(main("12345"))
