@@ -8,9 +8,7 @@ def main(s,n):
     """
     s="good"
     n=s[n]
-    print(s[3])
+    
 
-    return  
-s='good'
-n=s[n]
-print(s[3])
+    return  s
+print(main("good",2))
