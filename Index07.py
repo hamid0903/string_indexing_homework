@@ -6,4 +6,11 @@ def main(s,n):
     Returns:
         str: answer
     """
-    return
+    s="good"
+    n=s[n]
+    print(s[3])
+
+    return  
+s='good'
+n=s[n]
+print(s[3])
